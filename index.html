@@ -1,0 +1,856 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fecto Cement Limited — A Name of Faith</title>
+  <meta name="description" content="Fecto Cement Limited — Name of Trust and Quality. Public listed company on the Pakistan Stock Exchange with its cement plant at Sangjani, near Islamabad. Production since January 1, 1990.">
+  <meta name="theme-color" content="#FFFFFF">
+
+  <!-- Fonts: Archivo (headings, variable width), IBM Plex Sans (body), IBM Plex Mono (labels & figures) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@75..125,400..800&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+
+  <link rel="preload" as="image" href="images/Slider1.jpg" fetchpriority="high">
+
+  <!-- Flag motion early (prevents a flash of un-animated headings). main.js removes the flag
+       if GSAP fails to load; the timeout is a safety net if main.js never runs. -->
+  <script>
+    (function () {
+      if (window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+      var d = document.documentElement;
+      d.classList.add('has-motion');
+      setTimeout(function () { if (!window.__fectoReady) d.classList.remove('has-motion'); }, 3000);
+    })();
+  </script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- Inline icon sprite: arrow, chevron, external -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <symbol id="i-arrow" viewBox="0 0 20 20"><path d="M3 10h13M11 4.5 16.5 10 11 15.5" fill="none" stroke="currentColor" stroke-width="1.6"/></symbol>
+  <symbol id="i-chev" viewBox="0 0 12 12"><path d="M2.5 4.5 6 8l3.5-3.5" fill="none" stroke="currentColor" stroke-width="1.5"/></symbol>
+  <symbol id="i-ext" viewBox="0 0 12 12"><path d="M4 2h6v6M10 2 3 9" fill="none" stroke="currentColor" stroke-width="1.3"/></symbol>
+</svg>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<!-- =========================================================
+     1a. TOP BAR
+     ========================================================= -->
+<div class="topbar">
+  <div class="container topbar__inner">
+    <p class="topbar__call">
+      <span class="topbar__label">Call us now:</span>
+      <a href="tel:+922135248921">(+9221) 35248921-3 &amp; 4</a>
+    </p>
+    <nav class="lang" aria-label="Language">
+      <a href="index.html" class="lang__link is-active" aria-current="true" lang="en">EN</a>
+      <span class="lang__sep" aria-hidden="true">/</span>
+      <a href="http://fectogroup.com/ur/" class="lang__link lang__link--ur" lang="ur" hreflang="ur">اردو</a>
+    </nav>
+  </div>
+</div>
+
+<!-- =========================================================
+     1b. NAVBAR + MEGA MENUS
+     ========================================================= -->
+<header class="nav" id="nav">
+  <div class="container nav__inner">
+    <a class="nav__logo" href="https://fectogroup.com/" aria-label="Fecto Cement — home">
+      <img src="images/logo-fecto.png" alt="Fecto Cement" width="375" height="72">
+    </a>
+
+    <nav class="nav__menu" aria-label="Main">
+      <ul class="nav__list">
+
+        <!-- Company -->
+        <li class="nav__item">
+          <button class="nav__trigger" type="button" aria-expanded="false" aria-controls="mega-company">
+            Company <svg class="nav__chev" aria-hidden="true"><use href="#i-chev"/></svg>
+          </button>
+          <div class="mega" id="mega-company" hidden>
+            <div class="container mega__grid">
+              <div class="mega__intro">
+                <p class="label">Company</p>
+                <p class="mega__lead">Public Listed Company &amp; listed on Pakistan Stock Exchange.</p>
+                <a class="link-arrow" href="https://fectogroup.com/profile/">Profile <svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
+              </div>
+              <ul class="mega__links">
+                <li><a href="https://fectogroup.com/profile/">Profile</a></li>
+                <li><a href="https://fectogroup.com/vision/">Vision</a></li>
+                <li><a href="https://fectogroup.com/mission/">Mission</a></li>
+                <li><a href="https://fectogroup.com/vision-mission-and-permissible-business/">Status of Company</a></li>
+                <li><a href="https://fectogroup.com/registration/">Registration No &amp; NTN</a></li>
+                <li><a href="https://fectogroup.com/fecto-cement/">Fecto Cement</a></li>
+                <li><a href="https://fectogroup.com/contact-us/">Contact Us</a></li>
+              </ul>
+              <figure class="mega__figure">
+                <img src="images/Slider2.jpg" alt="Silos and landscaped grounds of the Fecto Cement plant" width="1920" height="1440" loading="lazy" decoding="async">
+                <figcaption>Cement Plant, Sangjani, Dist. Islamabad</figcaption>
+              </figure>
+            </div>
+          </div>
+        </li>
+
+        <!-- Governance & Directors -->
+        <li class="nav__item">
+          <button class="nav__trigger" type="button" aria-expanded="false" aria-controls="mega-governance">
+            Governance &amp; Directors <svg class="nav__chev" aria-hidden="true"><use href="#i-chev"/></svg>
+          </button>
+          <div class="mega" id="mega-governance" hidden>
+            <div class="container mega__grid">
+              <div class="mega__intro">
+                <p class="label">Governance &amp; Directors</p>
+                <p class="mega__lead">Board of Directors, shareholding, auditors and legal advisor.</p>
+                <a class="link-arrow" href="https://fectogroup.com/governance/">Governance <svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
+              </div>
+              <div class="mega__col">
+                <p class="mega__heading">Governance</p>
+                <ul class="mega__links">
+                  <li><a href="https://fectogroup.com/governance/">Governance</a></li>
+                  <li><a href="https://fectogroup.com/corporate-governance/">Corporate Governance</a></li>
+                  <li><a href="https://fectogroup.com/profile-of-board-of-directors/">Profile of Board of Directors</a></li>
+                  <li><a href="https://fectogroup.com/shareholding-pattern/">Shareholding Pattern</a></li>
+                  <li><a href="https://fectogroup.com/name-of-auditors/">Name of Auditors</a></li>
+                  <li><a href="https://fectogroup.com/name-of-legal-advisor/">Name of Legal Advisor</a></li>
+                </ul>
+              </div>
+              <div class="mega__col">
+                <p class="mega__heading">Directors</p>
+                <ul class="mega__links">
+                  <li><a href="https://fectogroup.com/election-of-directors/">Election of Directors</a></li>
+                  <li><a href="https://fectogroup.com/information-to-election-of-directors/">Notice of Election of Directors</a></li>
+                  <li><a href="https://fectogroup.com/proxy-forms/">Proxy Form</a></li>
+                  <li><a href="https://fectogroup.com/list-of-shareholders/">List of Shareholders</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <!-- Investors -->
+        <li class="nav__item">
+          <button class="nav__trigger" type="button" aria-expanded="false" aria-controls="mega-investors">
+            Investors <svg class="nav__chev" aria-hidden="true"><use href="#i-chev"/></svg>
+          </button>
+          <div class="mega" id="mega-investors" hidden>
+            <div class="container mega__grid mega__grid--four">
+              <div class="mega__col">
+                <p class="mega__heading">Investor Relation</p>
+                <ul class="mega__links">
+                  <li><a href="https://fectogroup.com/investor-relation/">Investor Relation</a></li>
+                  <li><a href="https://fectogroup.com/corporate-social-responsibility-report/">Corporate Social Responsibility Report</a></li>
+                  <li><a href="https://fectogroup.com/notice/">Notice</a></li>
+                  <li><a href="https://fectogroup.com/free-float/">Free Float</a></li>
+                  <li><a href="https://fectogroup.com/bank-account-information/">E-Dividend Mandate Form</a></li>
+                </ul>
+              </div>
+              <div class="mega__col">
+                <p class="mega__heading">Investor Info</p>
+                <ul class="mega__links">
+                  <li><a href="https://fectogroup.com/investor-info/">Investor Info</a></li>
+                  <li><a href="https://fectogroup.com/symbol-of-the-company/">Symbol of the Company</a></li>
+                  <li><a href="https://fectogroup.com/financials/">Financial Reports</a></li>
+                  <li><a href="https://fectogroup.com/key-financial-details/">Financial Highlights</a></li>
+                  <li><a href="https://fectogroup.com/share-registrar/">Name and Address of Share Registrar</a></li>
+                  <li><a href="https://fectogroup.com/financial-statement-through-email-form/">Financial Statement through Email Form</a></li>
+                  <li><a href="https://fectogroup.com/wp-content/uploads/2019/06/Unclaimed_DIV_010619_1.pdf">Unclaimed Dividend <span class="tag">PDF</span></a></li>
+                  <li><a href="https://fectogroup.com/corporate-briefing-session/">Corporate Briefing Session</a></li>
+                </ul>
+              </div>
+              <div class="mega__col">
+                <p class="mega__heading">Complaints</p>
+                <ul class="mega__links">
+                  <li><a href="https://fectogroup.com/secp-complaint-registration/">SECP Complaint Registration</a></li>
+                  <li><a href="https://fectogroup.com/online-complaint-registration-form/">Online Complaint Registration Form</a></li>
+                  <li><a href="https://fectogroup.com/online-form/">Investor Complaints</a></li>
+                </ul>
+              </div>
+              <div class="mega__note">
+                <p class="mega__heading">Investor Complaint Handling Cell</p>
+                <p>Mr. Abdul Wahab<br><span>Chief Financial Officer</span><br><a href="mailto:abdul_wahab@fectogroup.com">abdul_wahab@fectogroup.com</a></p>
+                <p>Mr. Muhammad Hashim<br><span>Manager</span><br><a href="mailto:Muhammad.hashim@fectogroup.com">Muhammad.hashim@fectogroup.com</a></p>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <!-- Media & Plant -->
+        <li class="nav__item">
+          <button class="nav__trigger" type="button" aria-expanded="false" aria-controls="mega-media">
+            Media &amp; Plant <svg class="nav__chev" aria-hidden="true"><use href="#i-chev"/></svg>
+          </button>
+          <div class="mega" id="mega-media" hidden>
+            <div class="container mega__grid">
+              <div class="mega__col">
+                <p class="mega__heading">Media</p>
+                <ul class="mega__links">
+                  <li><a href="https://fectogroup.com/media/">Media</a></li>
+                  <li><a href="https://fectogroup.com/gallery/">Gallery</a></li>
+                  <li><a href="https://fectogroup.com/paper-production-gallery/">Paper Production Gallery</a></li>
+                  <li><a href="https://fectogroup.com/last-update-on/">Last Update On</a></li>
+                  <li><a href="https://fectogroup.com/announcements/">Announcements</a></li>
+                  <li><a href="https://fectogroup.com/membership/">Membership</a></li>
+                  <li><a href="https://fectogroup.com/website-compliance-certificate/">Website Compliance Certificate</a></li>
+                </ul>
+              </div>
+              <div class="mega__col">
+                <p class="mega__heading">Plant</p>
+                <ol class="mega__links mega__links--numbered">
+                  <li><a href="https://fectogroup.com/cement-plant/">Cement Plant</a></li>
+                  <li><a href="https://fectogroup.com/crusher/">Crusher</a></li>
+                  <li><a href="https://fectogroup.com/raw-grinding/">Raw Grinding</a></li>
+                  <li><a href="https://fectogroup.com/stacker-n-reclaimer/">Stacker &amp; Reclaimer</a></li>
+                  <li><a href="https://fectogroup.com/preheater-kiln-n-cooler/">Preheater, Kiln &amp; Cooler</a></li>
+                  <li><a href="https://fectogroup.com/cement-mill/">Cement Mill</a></li>
+                  <li><a href="https://fectogroup.com/pump-house/">Pump House</a></li>
+                  <li><a href="https://fectogroup.com/whrpp/">WHRPP</a></li>
+                  <li><a href="https://fectogroup.com/environment-safety/">Environment &amp; Safety</a></li>
+                </ol>
+              </div>
+              <figure class="mega__figure">
+                <img src="images/AQC-VIEW1.jpg" alt="WHRPP section of the Fecto Cement plant" width="1920" height="1440" loading="lazy" decoding="async">
+                <figcaption>WHRPP</figcaption>
+              </figure>
+            </div>
+          </div>
+        </li>
+
+        <!-- Products -->
+        <li class="nav__item">
+          <button class="nav__trigger" type="button" aria-expanded="false" aria-controls="mega-products">
+            Products <svg class="nav__chev" aria-hidden="true"><use href="#i-chev"/></svg>
+          </button>
+          <div class="mega" id="mega-products" hidden>
+            <div class="container mega__grid">
+              <div class="mega__intro">
+                <p class="label">Products</p>
+                <p class="mega__lead">Fecto Cement Limited — Name of Trust and Quality.</p>
+                <a class="link-arrow" href="https://fectogroup.com/proxies/">Products <svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
+              </div>
+              <ul class="mega__links">
+                <li><a href="https://fectogroup.com/proxies/">Products</a></li>
+                <li><a href="https://fectogroup.com/fecto-cement/">Fecto Cement</a></li>
+                <li><a href="http://www.fectogroup.com/?page_id=1879">Cement Bag</a></li>
+                <li><a href="https://fectogroup.com/bags_page_link/">Bags</a></li>
+              </ul>
+              <figure class="mega__figure mega__figure--portrait">
+                <img src="images/FECTO-Ad-1.jpg" alt="Fecto Cement bag advertisement in Urdu" width="1037" height="1598" loading="lazy" decoding="async">
+                <figcaption>Cement Bag</figcaption>
+              </figure>
+            </div>
+          </div>
+        </li>
+
+        <!-- Career -->
+        <li class="nav__item">
+          <button class="nav__trigger" type="button" aria-expanded="false" aria-controls="mega-career">
+            Career <svg class="nav__chev" aria-hidden="true"><use href="#i-chev"/></svg>
+          </button>
+          <div class="mega" id="mega-career" hidden>
+            <div class="container mega__grid">
+              <div class="mega__intro mega__intro--wide">
+                <p class="label">People Our Assets</p>
+                <p class="mega__lead">At Fecto, we believe in our people. Our objective is to recruit, develop and retain the best talent by offering a dynamic work environment and growth opportunities.</p>
+              </div>
+              <ul class="mega__links">
+                <li><a href="https://fectogroup.com/career/">Career — People Our Assets</a></li>
+                <li><a href="https://fectogroup.com/site-map/">Site Map</a></li>
+                <li><a href="https://fectogroup.com/map/">Map</a></li>
+              </ul>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </nav>
+
+    <a class="btn btn--outline nav__cta" href="https://fectogroup.com/investor-relation/">
+      Investor Relations <svg class="btn__arrow" aria-hidden="true"><use href="#i-arrow"/></svg>
+    </a>
+
+    <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="mobile-menu" aria-label="Open menu">
+      <span></span><span></span>
+    </button>
+  </div>
+</header>
+<div class="nav-scrim" aria-hidden="true"></div>
+
+<!-- Mobile full-screen menu. Accordion groups are generated by main.js from the
+     desktop mega menus above, so both menus always contain the same links. -->
+<div class="mobile-menu" id="mobile-menu" role="dialog" aria-modal="true" aria-label="Menu" hidden>
+  <div class="mobile-menu__head container">
+    <img src="images/logo-fecto.png" alt="Fecto Cement" width="375" height="72">
+    <button class="mobile-menu__close" type="button" aria-label="Close menu"><span></span><span></span></button>
+  </div>
+  <div class="mobile-menu__body container">
+    <div class="mobile-menu__groups"></div>
+    <a class="btn btn--solid mobile-menu__cta" href="https://fectogroup.com/investor-relation/">Investor Relations <svg class="btn__arrow" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+    <p class="mobile-menu__meta">
+      <a href="tel:+922135248921">(+9221) 35248921-3 &amp; 4</a>
+      <a href="http://fectogroup.com/ur/" lang="ur" hreflang="ur">اردو</a>
+    </p>
+  </div>
+</div>
+
+<main id="main">
+
+<!-- =========================================================
+     2. HERO
+     ========================================================= -->
+<section class="hero" aria-labelledby="hero-title">
+  <div class="hero__media">
+    <img src="images/Slider1.jpg" alt="Preheater tower and cement silos of the Fecto Cement plant under a clear sky" width="1920" height="1440" fetchpriority="high" decoding="async">
+  </div>
+  <div class="hero__overlay" aria-hidden="true"></div>
+
+  <div class="container hero__content">
+    <p class="label label--light hero__kicker">Fecto Cement Limited</p>
+    <h1 class="hero__title js-lines" id="hero-title">A Name of Faith</h1>
+    <div class="hero__sub">
+      <p class="hero__subline">Name of Trust and Quality</p>
+      <p class="hero__text">One of the Renowned Cement Industry in Pakistan.</p>
+    </div>
+    <div class="hero__actions">
+      <a class="btn btn--solid" href="#process">The Plant <svg class="btn__arrow" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+      <a class="btn btn--light" href="https://fectogroup.com/investor-info/">Investor Information <svg class="btn__arrow" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+    </div>
+  </div>
+
+  <div class="hero__facts">
+    <dl class="container facts">
+      <div class="facts__item"><dt>Established</dt><dd>1981</dd></div>
+      <div class="facts__item"><dt>Production since</dt><dd>1990</dd></div>
+      <div class="facts__item"><dt>Group heritage since</dt><dd>1952</dd></div>
+    </dl>
+  </div>
+</section>
+
+<!-- =========================================================
+     3. INTRO — large statement + photo column
+     ========================================================= -->
+<section class="intro section" id="company" aria-labelledby="intro-title">
+  <div class="container grid">
+    <p class="label intro__label"><span class="label__num">01</span> — The Company</p>
+
+    <div class="intro__statement">
+      <h2 class="intro__title js-lines" id="intro-title">Pakistan’s first anti-pollution cement manufacturing plant, and the first of its kind in South Asia.</h2>
+      <div class="intro__body">
+        <p>Established at Sangjani, near Islamabad, the ISO 9001:2000 certified Fecto Cement Limited is one of the most integrated manufacturing units in the country, with a rated capacity to produce 780,000 tonnes of clinker per annum.</p>
+        <p>Fuller International Inc., USA erected the state-of-the-art technology plant at a total project cost of Rs. 2,104 million. Ever since the start of production, which commenced from January 01, 1990, Fecto Cement has an enviable track record of achieving maximum production with consistency.</p>
+      </div>
+
+      <dl class="spec">
+        <div class="spec__row"><dt>Status</dt><dd>Public Listed Company &amp; listed on Pakistan Stock Exchange</dd></div>
+        <div class="spec__row"><dt>Company Reg. No.</dt><dd>0008418</dd></div>
+        <div class="spec__row"><dt>National Tax No.</dt><dd>0710403-7</dd></div>
+        <div class="spec__row"><dt>Sales Tax Reg. No.</dt><dd>07-01-2523-001-46</dd></div>
+      </dl>
+      <a class="link-arrow" href="https://fectogroup.com/registration/">Registration No &amp; NTN <svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
+    </div>
+
+    <figure class="intro__figure">
+      <div class="img-frame img-frame--portrait js-reveal">
+        <img class="js-parallax" src="images/cooler-6.jpg" alt="Preheater tower bearing the Fecto Cement name" width="960" height="1280" loading="lazy" decoding="async">
+      </div>
+      <figcaption class="caption"><span>Fig. 01</span> Preheater tower, Sangjani plant</figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- =========================================================
+     4. VISION / MISSION / CORPORATE VALUES — ruled rows
+     ========================================================= -->
+<section class="principles section" aria-labelledby="principles-title">
+  <div class="container">
+    <header class="principles__head grid">
+      <p class="label"><span class="label__num">02</span> — Vision, Mission &amp; Values</p>
+      <h2 class="principles__title js-lines" id="principles-title">Integrity at all levels.</h2>
+    </header>
+
+    <ol class="rows">
+      <li class="rows__item grid">
+        <div class="rows__key">
+          <span class="rows__num">2.1</span>
+          <h3 class="rows__title">Vision</h3>
+        </div>
+        <div class="rows__text">
+          <p class="rows__lead">We perform with integrity at all levels and continue to ensure corporate excellence through innovation and focused quality conscious efforts in all our ventures. We believe that good leadership and organized teamwork is imperative for our growth &amp; success.</p>
+          <p class="rows__note">To compete in tough and competitive market, focusing on “Satisfaction” of customers, and stakeholders with challenging spirit and flexibility, striving hard to make profit, creating value for our customers, and to continue as a successful Company.</p>
+        </div>
+        <a class="rows__link link-arrow" href="https://fectogroup.com/vision/">More details <svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
+      </li>
+      <li class="rows__item grid">
+        <div class="rows__key">
+          <span class="rows__num">2.2</span>
+          <h3 class="rows__title">Mission</h3>
+        </div>
+        <div class="rows__text">
+          <p class="rows__lead">As a company our mission is to deliver economic value and added benefits to our customers.</p>
+          <p class="rows__note">To manage and operate the company in a manner that allows growth and profitability without high risk for stakeholders and the company by offering quality product to our customers, while striving to improve our product to meet our customers needs.</p>
+        </div>
+        <a class="rows__link link-arrow" href="https://fectogroup.com/mission/">More details <svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
+      </li>
+      <li class="rows__item grid">
+        <div class="rows__key">
+          <span class="rows__num">2.3</span>
+          <h3 class="rows__title">Corporate Values</h3>
+        </div>
+        <div class="rows__text">
+          <p class="rows__lead">We aspire to become a leading national enterprise in the Industrial and Trading sectors by living our corporate values.</p>
+        </div>
+        <a class="rows__link link-arrow" href="https://fectogroup.com/vision-mission-and-permissible-business/">More details <svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<!-- =========================================================
+     5. LEGACY NUMBERS — charcoal, large numerals
+     ========================================================= -->
+<section class="legacy" aria-labelledby="legacy-title">
+  <div class="gridlines" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span><span></span></div>
+  <div class="container legacy__inner">
+    <header class="legacy__head">
+      <p class="label label--light"><span class="label__num">03</span> — Legacy</p>
+      <h2 class="legacy__title js-lines" id="legacy-title">An enviable track record of production with consistency.</h2>
+    </header>
+
+    <dl class="figures">
+      <div class="figures__item figures__item--lead">
+        <dt class="figures__label">Years since production commenced on January 1, 1990</dt>
+        <dd class="figures__num"><span class="js-count" data-years-since="1990" data-from="0">36</span></dd>
+      </div>
+      <div class="figures__item">
+        <dt class="figures__label">Fecto Cement Limited established</dt>
+        <dd class="figures__num"><span class="js-count" data-to="1981" data-from="1947">1981</span></dd>
+      </div>
+      <div class="figures__item">
+        <dt class="figures__label">Group trading business founded</dt>
+        <dd class="figures__num"><span class="js-count" data-to="1952" data-from="1920">1952</span></dd>
+      </div>
+      <div class="figures__item">
+        <dt class="figures__label">Tonnes of clinker per annum, rated capacity</dt>
+        <dd class="figures__num"><span class="js-count" data-to="780000" data-from="0" data-format="thousands">780,000</span></dd>
+      </div>
+    </dl>
+  </div>
+</section>
+
+<!-- =========================================================
+     6. PLANT PROCESS — pinned horizontal scroll (signature)
+     ========================================================= -->
+<section class="process" id="process" aria-labelledby="process-title">
+  <div class="process__progress" aria-hidden="true"><span class="process__bar"></span></div>
+
+  <div class="process__viewport">
+    <div class="process__track">
+
+      <div class="process__intro">
+        <p class="label"><span class="label__num">04</span> — The Plant</p>
+        <h2 class="process__title js-lines" id="process-title">Inside the Sangjani plant.</h2>
+        <p class="process__lede">Seven sections of the cement plant at Sangjani, Dist. Islamabad — from the crusher to the WHRPP.</p>
+        <p class="process__counter" aria-hidden="true"><span class="process__current">01</span> / 07</p>
+        <a class="link-arrow" href="https://fectogroup.com/cement-plant/">Cement Plant <svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
+      </div>
+
+      <article class="panel">
+        <div class="panel__media"><img src="images/P2190003.jpg" alt="Crusher hopper with limestone at the Fecto Cement plant" width="1280" height="960" loading="lazy" decoding="async"></div>
+        <div class="panel__meta">
+          <p class="panel__step">Stage 01 / 07</p>
+          <h3 class="panel__title">Crusher</h3>
+          <a class="link-arrow" href="https://fectogroup.com/crusher/">View Crusher <svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
+        </div>
+      </article>
+
+      <article class="panel">
+        <div class="panel__media"><img src="images/1raw-1.jpg" alt="Raw grinding building and stack at the Fecto Cement plant" width="1280" height="960" loading="lazy" decoding="async"></div>
+        <div class="panel__meta">
+          <p class="panel__step">Stage 02 / 07</p>
+          <h3 class="panel__title">Raw Grinding</h3>
+          <a class="link-arrow" href="https://fectogroup.com/raw-grinding/">View Raw Grinding <svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
+        </div>
+      </article>
+
+      <article class="panel">
+        <div class="panel__media"><img src="images/P2190008.jpg" alt="Stacker and reclaimer inside the covered raw material store" width="1280" height="960" loading="lazy" decoding="async"></div>
+        <div class="panel__meta">
+          <p class="panel__step">Stage 03 / 07</p>
+          <h3 class="panel__title">Stacker &amp; Reclaimer</h3>
+          <a class="link-arrow" href="https://fectogroup.com/stacker-n-reclaimer/">View Stacker &amp; Reclaimer <svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
+        </div>
+      </article>
+
+      <article class="panel panel--portrait">
+        <div class="panel__media"><img src="images/cooler-1.jpg" alt="Preheater ducts and structure at the Fecto Cement plant" width="960" height="1280" loading="lazy" decoding="async"></div>
+        <div class="panel__meta">
+          <p class="panel__step">Stage 04 / 07</p>
+          <h3 class="panel__title">Preheater, Kiln &amp; Cooler</h3>
+          <a class="link-arrow" href="https://fectogroup.com/preheater-kiln-n-cooler/">View Preheater, Kiln &amp; Cooler <svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
+        </div>
+      </article>
+
+      <article class="panel">
+        <div class="panel__media"><img src="images/P2190072.jpg" alt="Cement mill shell inside the mill building" width="1280" height="960" loading="lazy" decoding="async"></div>
+        <div class="panel__meta">
+          <p class="panel__step">Stage 05 / 07</p>
+          <h3 class="panel__title">Cement Mill</h3>
+          <a class="link-arrow" href="https://fectogroup.com/cement-mill/">View Cement Mill <svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
+        </div>
+      </article>
+
+      <article class="panel">
+        <div class="panel__media"><img src="images/P2190064.jpg" alt="Pump house buildings at the Fecto Cement plant" width="1280" height="960" loading="lazy" decoding="async"></div>
+        <div class="panel__meta">
+          <p class="panel__step">Stage 06 / 07</p>
+          <h3 class="panel__title">Pump House</h3>
+          <a class="link-arrow" href="https://fectogroup.com/pump-house/">View Pump House <svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
+        </div>
+      </article>
+
+      <article class="panel">
+        <div class="panel__media"><img src="images/AQC-VIEW1.jpg" alt="Waste heat recovery power plant ducting and boiler" width="1920" height="1440" loading="lazy" decoding="async"></div>
+        <div class="panel__meta">
+          <p class="panel__step">Stage 07 / 07</p>
+          <h3 class="panel__title">WHRPP</h3>
+          <a class="link-arrow" href="https://fectogroup.com/whrpp/">View WHRPP <svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- =========================================================
+     7. HISTORY — vertical timeline with drawn line
+     ========================================================= -->
+<section class="history section" id="history" aria-labelledby="history-title">
+  <div class="container grid">
+    <header class="history__head">
+      <div class="history__sticky">
+        <p class="label"><span class="label__num">05</span> — History</p>
+        <h2 class="history__title js-lines" id="history-title">From Grant Road, Mumbai to Sangjani.</h2>
+        <p class="history__intro">The roots of the company can be traced back to Coronation Footwear, a shoe store started by Ghulam Muhammad A. Fecto.</p>
+      </div>
+    </header>
+
+    <div class="timeline">
+      <div class="timeline__line" aria-hidden="true"><span class="timeline__fill"></span></div>
+      <ol class="timeline__list">
+        <li class="timeline__item">
+          <p class="timeline__year timeline__year--word">Origins</p>
+          <div class="timeline__body">
+            <h3>Coronation Footwear, Mumbai</h3>
+            <p>A shoe store started by Ghulam Muhammad A. Fecto in Mumbai on Grant Road.</p>
+          </div>
+        </li>
+        <li class="timeline__item">
+          <p class="timeline__year">1952</p>
+          <div class="timeline__body">
+            <h3>Trading business established</h3>
+            <p>After partition he migrated from Mumbai to Dhaka and then in 1952 established a business involved in trading electrical goods, wires and home appliances.</p>
+          </div>
+        </li>
+        <li class="timeline__item">
+          <p class="timeline__year timeline__year--word">Japan</p>
+          <div class="timeline__body">
+            <h3>First technical collaboration with Japan</h3>
+            <p>The company then made a pioneering effort as it entered into a joint venture with a Japanese brand for the manufacturing of Radio, which was the first-ever technical collaboration with Japan in Pakistan.</p>
+          </div>
+        </li>
+        <li class="timeline__item">
+          <p class="timeline__year">1975</p>
+          <div class="timeline__body">
+            <h3>Diversification into industry</h3>
+            <p>The company began to diversify from trading to industrial activities. The group continued to move from strength to strength and over time manufactured Cement, Sugar, and Tractors.</p>
+          </div>
+        </li>
+        <li class="timeline__item">
+          <p class="timeline__year">1981</p>
+          <div class="timeline__body">
+            <h3>Fecto Cement Limited established</h3>
+            <p>In 1981 Fecto Cement Limited was established.</p>
+          </div>
+        </li>
+        <li class="timeline__item timeline__item--key">
+          <p class="timeline__year">1990</p>
+          <div class="timeline__body">
+            <h3>Production begins</h3>
+            <p>Production commenced on January 1, 1990.</p>
+          </div>
+        </li>
+        <li class="timeline__item">
+          <p class="timeline__year timeline__year--word">Mid-90s</p>
+          <div class="timeline__body">
+            <h3>Current management</h3>
+            <p>In the mid-nineties, the founder began to segment the Group with its companies being split amongst his children, of which he had 8, into wholly separate entities which no longer had any affiliation with each other outside of sharing a name.</p>
+            <p>The responsibility of managing Fecto Cement Limited was entrusted to Mr. Mohammed Yasin Fecto and Mr. Asad Fecto who have continued to move from strength to strength with the company vision of building a better economic future for Pakistan.</p>
+          </div>
+        </li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+<!-- =========================================================
+     8. ENVIRONMENT & SAFETY — full-bleed split
+     ========================================================= -->
+<section class="env" id="environment" aria-labelledby="env-title">
+  <figure class="env__media js-reveal">
+    <img class="js-parallax" src="images/Slider2.jpg" alt="Cement silos behind palm trees and lawns at the Fecto Cement plant" width="1920" height="1440" loading="lazy" decoding="async">
+    <figcaption class="caption caption--on-photo"><span>Fig. 02</span> Plant grounds, Sangjani</figcaption>
+  </figure>
+
+  <div class="env__content">
+    <p class="label"><span class="label__num">06</span> — Environment &amp; Safety</p>
+    <h2 class="env__title js-lines" id="env-title">An anti-pollution plant, blessed with nature’s greenery.</h2>
+    <p class="env__lead">At Fecto, environment protection and safety is taken as seriously as any other business objective. We understand that while economic growth is a must, our industrial processes should not affect the quality of life of mankind.</p>
+    <p>Simultaneously, we ensure the use of economically feasible energy for industrial production, which justifies our consideration for energy conservation. We also ensure technically safe management of hazardous waste in order to prevent environmental damage.</p>
+
+    <a class="env__whrpp" href="https://fectogroup.com/whrpp/">
+      <img src="images/TG2.jpg" alt="" width="1920" height="1440" loading="lazy" decoding="async">
+      <span class="env__whrpp-text">
+        <span class="env__whrpp-label">Plant section</span>
+        <span class="env__whrpp-name">WHRPP <svg aria-hidden="true"><use href="#i-arrow"/></svg></span>
+      </span>
+    </a>
+
+    <a class="btn btn--solid" href="https://fectogroup.com/environment-safety/">Environment &amp; Safety <svg class="btn__arrow" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+  </div>
+</section>
+
+<!-- =========================================================
+     9. GALLERY — asymmetric editorial grid
+     ========================================================= -->
+<section class="gallery section" id="gallery" aria-labelledby="gallery-title">
+  <div class="container">
+    <header class="gallery__head">
+      <p class="label"><span class="label__num">07</span> — Gallery</p>
+      <h2 class="gallery__title js-lines" id="gallery-title">The plant, photographed.</h2>
+      <a class="link-arrow gallery__all" href="https://fectogroup.com/gallery/">View full gallery <svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
+    </header>
+
+    <div class="gallery__grid">
+      <figure class="g g--a">
+        <div class="img-frame js-reveal"><img class="js-parallax" src="images/P1080049.jpg" alt="Overall view of the Fecto Cement plant with preheater tower and silos" width="1920" height="1440" loading="lazy" decoding="async"></div>
+        <figcaption class="caption"><span>01</span> Cement Plant</figcaption>
+      </figure>
+      <figure class="g g--b">
+        <div class="img-frame js-reveal"><img src="images/Slider3.jpg" alt="Cooling tower and plant buildings with flowering shrubs" width="1920" height="1440" loading="lazy" decoding="async"></div>
+        <figcaption class="caption"><span>02</span> Plant</figcaption>
+      </figure>
+      <figure class="g g--c">
+        <div class="img-frame js-reveal"><img src="images/1raw-2.jpg" alt="Raw material silos at the Fecto Cement plant" width="960" height="1280" loading="lazy" decoding="async"></div>
+        <figcaption class="caption"><span>03</span> Raw Grinding</figcaption>
+      </figure>
+      <figure class="g g--d">
+        <div class="img-frame js-reveal"><img src="images/P2190078.jpg" alt="Packing plant with cement bags" width="1280" height="960" loading="lazy" decoding="async"></div>
+        <figcaption class="caption"><span>04</span> Cement Mill &amp; Packing Plant</figcaption>
+      </figure>
+      <figure class="g g--e">
+        <div class="img-frame js-reveal"><img src="images/P3300060-1.jpg" alt="Plant buildings and landscaped garden" width="1920" height="1440" loading="lazy" decoding="async"></div>
+        <figcaption class="caption"><span>05</span> Plant</figcaption>
+      </figure>
+      <figure class="g g--f">
+        <div class="img-frame js-reveal"><img src="images/FECTO-Ad-1.jpg" alt="Fecto Cement bag advertisement in Urdu" width="1037" height="1598" loading="lazy" decoding="async"></div>
+        <figcaption class="caption"><span>06</span> Cement Bag</figcaption>
+      </figure>
+      <figure class="g g--g">
+        <div class="img-frame js-reveal"><img src="images/P2190001.jpg" alt="Dump trucks parked at the crusher yard" width="1280" height="960" loading="lazy" decoding="async"></div>
+        <figcaption class="caption"><span>07</span> Crusher</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- =========================================================
+     10. INVESTOR CORNER — ruled list + complaint cell
+     ========================================================= -->
+<section class="investors section" id="investors" aria-labelledby="investors-title">
+  <div class="container grid">
+    <header class="investors__head">
+      <p class="label"><span class="label__num">08</span> — Investor Corner</p>
+      <h2 class="investors__title js-lines" id="investors-title">Information for shareholders.</h2>
+    </header>
+
+    <ul class="ilist">
+      <li><a class="ilist__row" href="https://fectogroup.com/announcements/"><span class="ilist__num">01</span><span class="ilist__name">Announcements</span><span class="ilist__path">/announcements</span><svg class="ilist__arrow" aria-hidden="true"><use href="#i-arrow"/></svg></a></li>
+      <li><a class="ilist__row" href="https://fectogroup.com/financials/"><span class="ilist__num">02</span><span class="ilist__name">Financial Reports</span><span class="ilist__path">/financials</span><svg class="ilist__arrow" aria-hidden="true"><use href="#i-arrow"/></svg></a></li>
+      <li><a class="ilist__row" href="https://fectogroup.com/key-financial-details/"><span class="ilist__num">03</span><span class="ilist__name">Financial Highlights</span><span class="ilist__path">/key-financial-details</span><svg class="ilist__arrow" aria-hidden="true"><use href="#i-arrow"/></svg></a></li>
+      <li><a class="ilist__row" href="https://fectogroup.com/corporate-briefing-session/"><span class="ilist__num">04</span><span class="ilist__name">Corporate Briefing Session</span><span class="ilist__path">/corporate-briefing-session</span><svg class="ilist__arrow" aria-hidden="true"><use href="#i-arrow"/></svg></a></li>
+      <li><a class="ilist__row" href="https://fectogroup.com/notice/"><span class="ilist__num">05</span><span class="ilist__name">Notices</span><span class="ilist__path">/notice</span><svg class="ilist__arrow" aria-hidden="true"><use href="#i-arrow"/></svg></a></li>
+      <li><a class="ilist__row" href="https://fectogroup.com/secp-complaint-registration/"><span class="ilist__num">06</span><span class="ilist__name">SECP Complaint Registration</span><span class="ilist__path">/secp-complaint-registration</span><svg class="ilist__arrow" aria-hidden="true"><use href="#i-arrow"/></svg></a></li>
+    </ul>
+
+    <aside class="cell" aria-labelledby="cell-title">
+      <h3 class="cell__title" id="cell-title">Investor Complaint Handling Cell</h3>
+      <div class="cell__person">
+        <p class="cell__name">Mr. Abdul Wahab</p>
+        <p class="cell__role">Chief Financial Officer</p>
+        <p><a href="tel:+922135248921">021 35248921-24</a></p>
+        <p><a href="mailto:abdul_wahab@fectogroup.com">abdul_wahab@fectogroup.com</a></p>
+      </div>
+      <div class="cell__person">
+        <p class="cell__name">Mr. Muhammad Hashim</p>
+        <p class="cell__role">Manager</p>
+        <p><a href="tel:+922135248921">021 35248921-24</a></p>
+        <p><a href="mailto:Muhammad.hashim@fectogroup.com">Muhammad.hashim@fectogroup.com</a></p>
+      </div>
+      <a class="cell__badge" href="https://jamapunji.pk/" target="_blank" rel="noopener">
+        <img src="images/jamapunji.jpg" alt="Jamapunji" width="250" height="122" loading="lazy" decoding="async">
+        <span>jamapunji.pk <svg aria-hidden="true"><use href="#i-ext"/></svg><span class="visually-hidden"> (opens in a new tab)</span></span>
+      </a>
+    </aside>
+  </div>
+</section>
+
+<!-- =========================================================
+     11. CONTACT — charcoal band
+     ========================================================= -->
+<section class="contact" id="contact" aria-labelledby="contact-title">
+  <div class="container contact__inner">
+    <h2 class="contact__title" id="contact-title">Contact Fecto Cement</h2>
+    <div class="contact__lines">
+      <a class="contact__big" href="tel:+922135248921">(+9221) 35248921-3 &amp; 4</a>
+      <a class="contact__big" href="mailto:cement@fectogroup.com">cement@fectogroup.com</a>
+    </div>
+    <a class="btn btn--light contact__btn" href="https://fectogroup.com/contact-us/">Contact Us <svg class="btn__arrow" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+  </div>
+  <div class="container">
+    <ul class="offices">
+      <li><p class="offices__k">Office</p><p>Plot # 60-C, Khayaban-e-Shahbaz, Phase VI, Defence Housing Authority, Karachi 75500</p><p><a href="tel:+922135248921">(+9221) 35248921-3 &amp; 4</a></p></li>
+      <li><p class="offices__k">Marketing</p><p>House # 339, Peshawar Road, Westridge-I, Rawalpindi Cantt.</p><p><a href="tel:+92515467511">(+9251) 5467511-3</a></p></li>
+      <li><p class="offices__k">Liaison</p><p>389, Block D-II, Johar Town, Lahore</p><p><a href="tel:+924235174648">(+9242) 35174648-49</a></p></li>
+      <li><p class="offices__k">Cement Plant</p><p>Sangjani, Dist. Islamabad</p><p><a href="tel:+92512296065">(+9251) 2296065-8</a></p></li>
+    </ul>
+  </div>
+</section>
+
+</main>
+
+<!-- =========================================================
+     12. FOOTER — every page of the current site
+     ========================================================= -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer__top">
+      <a class="footer__logo" href="https://fectogroup.com/" aria-label="Fecto Cement — home">
+        <img src="images/logo-fecto.png" alt="Fecto Cement" width="375" height="72" loading="lazy">
+      </a>
+      <address class="footer__address">
+        Plot # 60-C, Khayaban-e-Shahbaz, Phase VI,<br>Defence Housing Authority, Karachi 75500, Pakistan.<br>
+        <a href="tel:+922135248921">(+9221) 35248921-3 &amp; 4</a> &middot; Fax (+9221) 35248925<br>
+        <a href="mailto:cement@fectogroup.com">cement@fectogroup.com</a>
+      </address>
+    </div>
+
+    <nav class="footer__nav" aria-label="All pages">
+      <div class="footer__col">
+        <p class="footer__h">Company</p>
+        <ul>
+          <li><a href="https://fectogroup.com/">Home</a></li>
+          <li><a href="https://fectogroup.com/profile/">Profile</a></li>
+          <li><a href="https://fectogroup.com/vision/">Vision</a></li>
+          <li><a href="https://fectogroup.com/mission/">Mission</a></li>
+          <li><a href="https://fectogroup.com/vision-mission-and-permissible-business/">Status of Company</a></li>
+          <li><a href="https://fectogroup.com/registration/">Registration No &amp; NTN</a></li>
+          <li><a href="https://fectogroup.com/fecto-cement/">Fecto Cement</a></li>
+          <li><a href="https://fectogroup.com/contact-us/">Contact Us</a></li>
+          <li><a href="https://fectogroup.com/map/">Map</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <p class="footer__h">Governance &amp; Directors</p>
+        <ul>
+          <li><a href="https://fectogroup.com/governance/">Governance</a></li>
+          <li><a href="https://fectogroup.com/corporate-governance/">Corporate Governance</a></li>
+          <li><a href="https://fectogroup.com/profile-of-board-of-directors/">Profile of Board of Directors</a></li>
+          <li><a href="https://fectogroup.com/shareholding-pattern/">Shareholding Pattern</a></li>
+          <li><a href="https://fectogroup.com/name-of-auditors/">Name of Auditors</a></li>
+          <li><a href="https://fectogroup.com/name-of-legal-advisor/">Name of Legal Advisor</a></li>
+          <li><a href="https://fectogroup.com/election-of-directors/">Election of Directors</a></li>
+          <li><a href="https://fectogroup.com/information-to-election-of-directors/">Notice of Election of Directors</a></li>
+          <li><a href="https://fectogroup.com/proxy-forms/">Proxy Form</a></li>
+          <li><a href="https://fectogroup.com/list-of-shareholders/">List of Shareholders</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <p class="footer__h">Investors</p>
+        <ul>
+          <li><a href="https://fectogroup.com/investor-relation/">Investor Relation</a></li>
+          <li><a href="https://fectogroup.com/investor-info/">Investor Info</a></li>
+          <li><a href="https://fectogroup.com/corporate-social-responsibility-report/">CSR Report</a></li>
+          <li><a href="https://fectogroup.com/notice/">Notice</a></li>
+          <li><a href="https://fectogroup.com/free-float/">Free Float</a></li>
+          <li><a href="https://fectogroup.com/bank-account-information/">E-Dividend Mandate Form</a></li>
+          <li><a href="https://fectogroup.com/symbol-of-the-company/">Symbol of the Company</a></li>
+          <li><a href="https://fectogroup.com/financials/">Financial Reports</a></li>
+          <li><a href="https://fectogroup.com/key-financial-details/">Financial Highlights</a></li>
+          <li><a href="https://fectogroup.com/share-registrar/">Share Registrar</a></li>
+          <li><a href="https://fectogroup.com/financial-statement-through-email-form/">Financial Statement through Email Form</a></li>
+          <li><a href="https://fectogroup.com/wp-content/uploads/2019/06/Unclaimed_DIV_010619_1.pdf">Unclaimed Dividend (PDF)</a></li>
+          <li><a href="https://fectogroup.com/corporate-briefing-session/">Corporate Briefing Session</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <p class="footer__h">Complaints</p>
+        <ul>
+          <li><a href="https://fectogroup.com/secp-complaint-registration/">SECP Complaint Registration</a></li>
+          <li><a href="https://fectogroup.com/secp-complaint-registration-2/">SECP Complaint Registration (Form)</a></li>
+          <li><a href="https://fectogroup.com/online-complaint-registration-form/">Online Complaint Registration Form</a></li>
+          <li><a href="https://fectogroup.com/online-form/">Investor Complaints</a></li>
+        </ul>
+        <p class="footer__h footer__h--gap">Media</p>
+        <ul>
+          <li><a href="https://fectogroup.com/media/">Media</a></li>
+          <li><a href="https://fectogroup.com/gallery/">Gallery</a></li>
+          <li><a href="https://fectogroup.com/paper-production-gallery/">Paper Production Gallery</a></li>
+          <li><a href="https://fectogroup.com/last-update-on/">Last Update On</a></li>
+          <li><a href="https://fectogroup.com/announcements/">Announcements</a></li>
+          <li><a href="https://fectogroup.com/membership/">Membership</a></li>
+          <li><a href="https://fectogroup.com/website-compliance-certificate/">Website Compliance Certificate</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <p class="footer__h">Plant</p>
+        <ul>
+          <li><a href="https://fectogroup.com/cement-plant/">Cement Plant</a></li>
+          <li><a href="https://fectogroup.com/crusher/">Crusher</a></li>
+          <li><a href="https://fectogroup.com/raw-grinding/">Raw Grinding</a></li>
+          <li><a href="https://fectogroup.com/stacker-n-reclaimer/">Stacker &amp; Reclaimer</a></li>
+          <li><a href="https://fectogroup.com/preheater-kiln-n-cooler/">Preheater, Kiln &amp; Cooler</a></li>
+          <li><a href="https://fectogroup.com/cement-mill/">Cement Mill</a></li>
+          <li><a href="https://fectogroup.com/pump-house/">Pump House</a></li>
+          <li><a href="https://fectogroup.com/whrpp/">WHRPP</a></li>
+          <li><a href="https://fectogroup.com/environment-safety/">Environment &amp; Safety</a></li>
+        </ul>
+        <p class="footer__h footer__h--gap">Products &amp; Career</p>
+        <ul>
+          <li><a href="https://fectogroup.com/proxies/">Products</a></li>
+          <li><a href="http://www.fectogroup.com/?page_id=1879">Cement Bag</a></li>
+          <li><a href="https://fectogroup.com/bags_page_link/">Bags</a></li>
+          <li><a href="https://fectogroup.com/career/">Career — People Our Assets</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="footer__bottom">
+      <p>© Fecto Cement <span class="js-year">2026</span>. All Rights Reserved.</p>
+      <ul class="footer__util">
+        <li><a href="https://fectogroup.com/site-map/">Site Map</a></li>
+        <li><a href="http://fectogroup.com/ur/" lang="ur" hreflang="ur">اردو</a></li>
+        <li><a href="https://jamapunji.pk/" target="_blank" rel="noopener">Jamapunji<span class="visually-hidden"> (opens in a new tab)</span></a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+<!-- Motion libraries (CDN). The page stays fully usable if these fail to load. -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" defer></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" defer></script>
+<script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js" defer></script>
+<script src="js/main.js" defer></script>
+</body>
+</html>
